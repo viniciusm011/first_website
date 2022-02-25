@@ -1,0 +1,319 @@
+@font-face{
+    font-family: 'Tech';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Header';
+    src: url('fontes/BebasNeue.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+header{
+    margin-bottom: 80px;
+}
+
+header > h1{
+    text-align: center;
+    padding: 35px;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Header', Arial, san-serif;
+    font-weight: normal;
+    font-size: 48px;
+    height: 40px;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+}
+
+header > p{
+    text-align: center;
+    color: white;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 16px;
+    font-size: 19px;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+nav > a{
+    text-decoration: none;
+    color: #BFF1D4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 6px;
+    
+
+}
+
+nav > a:hover{
+    background-color: #269056;
+    color: #1A5C38;
+    border-radius: 3px;
+    text-decoration: underline #1A5C37;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #EBE5C5;
+}
+
+
+
+
+
+
+main > strong{
+    color: #063D1E;
+    text-decoration: none;
+   
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 42%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > p{
+   text-align: justify; 
+   margin: 8px 14px;
+   font-family: 'Arial', Helvetica, sans-serif;
+   text-indent: 30px;
+   line-height: 2em;
+   
+   
+
+}
+
+main > h1{
+    color: #1A5C38;
+    margin-left: -5pxpx;
+    margin-top: 21px;
+    margin-bottom: -14px;
+    padding: 22px;
+    font-family: 'Tech', Arial, sans-serif;
+    font-size: 28px;
+    
+    
+}
+
+main > span > p{
+    color: white;
+    background-color: green;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+main > picture{
+    width: 100%;
+    margin-left: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+span > h2{
+    background: rgb(53,212,119);
+    background: linear-gradient(90deg, rgba(53,212,119,1) 0%, rgba(255,255,255,1) 80%);
+    color: #1A5C38;
+    margin: 6px;
+    padding: 2px;
+    padding-bottom: 9px;
+    font-family: 'Tech', Arial, sans-serif;
+    font-size: 1.3em;
+    height: 17.3px;
+    text-indent: 8px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+a.externo{
+    text-decoration: none;
+    background-color: rgba(94, 240, 159, 0.788);
+    padding: 3.5px 5px;
+    color: #1A5C37;
+}
+
+
+a.externo:hover{
+    text-decoration: underline;
+    color: #269056;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#bugdroid{
+    width: 100%;
+    margin-left: 300px;
+}
+
+div.video{
+    background-color: #063D1E;
+    padding: 35px;
+    padding-bottom: 3%;
+    padding-left: 3.5%;
+    position: relative;
+}
+
+div#cabeçalho{
+    background: rgb(26,92,56);
+    background: linear-gradient(0deg, #094523 25%, #269056 95%);
+    margin: -10px;
+    margin-top: -40px;
+    margin-bottom: -21px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+aside{
+    background-color: #83E1AD;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgb(0 0 0 / 28%);
+    margin: 20px 25px;
+}
+
+aside > h3{
+    background-color: #1A5C37;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+aside > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 30px;
+    padding: 8px;
+    line-height: 2em;
+}
+
+aside > p > strong{
+    color: #1A5C38;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer > p{
+    background-color: #094523;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin: 5px;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover{
+    color: #83E1AD;
+    text-decoration: underline;
+    
+}
